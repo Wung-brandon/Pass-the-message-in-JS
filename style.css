@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    background-color: #eae2b7;
+    min-height: 100vh;
+    text-align: center;
+}
+.app{
+    font-size: 40px;
+    font-weight: 20px;
+    text-align: center;
+    padding: 5px;
+    color: #d62828;
+}
+.delivered{
+    font-size: 30px;
+    background-color: white;
+    text-align: left;
+    text-transform: capitalize;
+    width: 75%;
+    height: 150px;
+    padding: 20px 20px;
+    margin: 20px auto 40px auto;
+}
+.message{
+    width: 75%;
+    height: 150px;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: block;
+}
+.btn{
+    background-color: #f77f00;
+    color: white;
+    width: 15%;
+    height: 30px;
+    border-radius: 5px; 
+    font-size: 15px;
+    font-weight: 5px;
+    margin: 40px 10px;
+    text-align: center;
+    border: 0;
+}
+.btn:hover{
+    background-color: #d62828;
+}

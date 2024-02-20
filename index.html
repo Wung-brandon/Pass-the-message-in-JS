@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass the message App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1 id="app" class="app">PASS THE MESSAGE APP</h1>
+    </header>
+    <h1 id="delivered" class="delivered">YOUR DELIVERED MESSAGE HERE</h1>
+    <input type="text" class="message" id="message" placeholder="Message You Would Like To Send">
+    <button type="button" onclick="sendMessage();" id="send-btn" class="btn">Send Message</button>
+    <button type="button" onclick="clearMessage();" id="clear-btn" class="btn">Clear Message</button>
+    <script src="message.js"></script>
+</body>
+</html>
